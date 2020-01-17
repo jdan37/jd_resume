@@ -1,0 +1,229 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http equiv="X UA Compatible" content="ie=edge">
+	<link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>Jerrid Daniels</title>
+	<link type="text/css" rel="stylesheet" href="css/blue.css" />
+<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="{% static 'js/jquery-1.4.2.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.tipsy.js'%} "></script>
+<script type="text/javascript" src="{% static 'js/cufon.yui.js'%} "></script>
+<script type="text/javascript" src="{% static 'js/scrollTo.js'%}"></script>
+<script type="text/javascript" src="{% static 'js/myriad.js'%}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.colorbox.js'%}"></script>
+<script type="text/javascript" src="{% static ' js/custom.js'%}"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
+</head>
+<body class="is-preload">
+	<section id="about" class="three">
+		<div class="container">
+			<a href="{% url 'index' %}" id="top-link">Home</a>
+<!--{% block content %}-->
+
+					<!-- Begin Wrapper -->
+					<div id="wrapper">
+					<div class="wrapper-top"></div>
+					<div class="wrapper-mid">
+						<!-- Begin Paper -->
+						<div id="paper">
+						<div class="paper-top"></div>
+						<div id="paper-mid">
+							<div class="entry">
+							<!-- Begin Image -->
+							<!--img class="portrait" src="images/image.jpg" alt="John Smith" /-->
+							<!-- End Image -->
+							<!-- Begin Personal Information -->
+							<div class="self">
+								<h1 class="name">Jerrid Daniels<br/>
+								<span>Network Engineer</span></h1>
+								<ul>
+								<class="ad">Baltimore, MD 21230<br/>
+								<class="mail">jerrid.daniels@gmail.com<br/>
+								<class="tel">4042747942<br/>
+								<class="web">www.jerriddaniels.com<br/>
+								</ul>
+							</div>
+							<!-- End Personal Information -->
+							<!-- Begin Social 
+							<div class="social">
+								<ul>
+								<li><a class='north' href="#" title="Download .pdf"><img src="{% static 'img/jerrid daniels 2019-net.pdf'%}" alt="Download the pdf version" /></a></li>
+								<li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+								<li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
+								<li><a class='north' href="#" title="Follow me on Twitter"><img src="images/icn-twitter.jpg" alt="" /></a></li>
+								<li><a class='north' href="#" title="My Facebook Profile"><img src="images/icn-facebook.jpg" alt="" /></a></li>
+								</ul>
+							</div>
+							End Social -->
+							</div>
+							<!-- Begin 1st Row -->
+							<div class="entry">
+							<h2>OBJECTIVE</h2>
+							<p>Seeking employment as a engineer for a great company</p>
+							</div>
+							<!-- End 1st Row -->
+							<!-- Begin 2nd Row -->
+							<div class="entry">
+							<h2>EDUCATION</h2>
+							<div class="content">
+								<!--h3>Sep 2005 - Feb 2007</h3>-->
+								<p>University of Maryland University College <br />
+								<em>Bachelor in computer studies</em></p>
+							</div>
+							<div class="content">
+								<!--h3>Sep 2001 - Jun 2005</h3-->
+								<p>Prince Georgious Community College<br />
+								<em>Associate in Engineering Technology</em></p>
+							</div>
+							</div>
+							<!-- End 2nd Row -->
+							<!-- Begin 3rd Row -->
+							<div class="entry">
+							<h2>EXPERIENCE</h2>
+							<div class="content">
+								<h3>March 2017 - Present</h3>
+								<p>Lillie Ruth Realty and Development, Georgia <br />
+								<em>Project Manager</em></p>
+								<ul class="info">
+								<li>Manage project budget of $130K and ensure company obtains the best possible pricing; determine and
+					minimize risk, reducing costs.</li>
+								<li>Installed and configured cisco small business managed switches for use in home office networks.</li>
+								<li>Used management software such as MS Project and Excel to plan budgets, coordinate work crews, and deliver
+					materials and supplies.</li>
+								</ul>
+							</div>
+							<div class="content">
+								<h3>March 2015 - Dec 2016</h3>
+								<p>Juniper Networks Inc <br />
+								<em>Network Technician</em></p>
+								<ul class="info">
+								<li>Used Juniper Pulse Secure to grant access to lab and server room assets.</li>
+								<li>Set up and configured topologies for sales engineers’ presentations and pre-sales test.</li>
+								<li>Staged devices and built testing environments, including device cabling. Upgraded software, performed basic
+					configurations installations, and documented topology diagrams. </li>
+									<li>Upgraded memory in server appliances, also patched and upgraded network devices.</li>
+									<li>Used vim to modify Unix code in Supermicro servers to activate fiber interfaces.</li>
+									<li>Installed and configured Supermicro and Dell power edge blade servers.</li>
+									<li>Overall, responsible for deploying and implementing the following technologies within the network:
+					Networking Platforms: Juniper SRX Firewalls (5800/5600/5400/4600/1500/300/100), MX Routers
+					(2020,960,480,240,80), Switches EX (9208/4200,2200-c/3300/8208/4300),
+					Cisco ASA5500, Cisco 4200 Wireless Lan Controller, Cisco Router (3900/2600), Juniper Pulse
+					Secure, Junos Space.</li>
+								</ul>
+							</div>
+							<div class="content">
+								<h3>March 2013 - March 2014</h3>
+								<p>New Bridge Wireless <br />
+								<em>RF Technician</em></p>
+								<ul class="info">
+								<li>Installed and configured sprint signal repeaters and antennas and connected systems to existing backhaul.</li>
+								<li>Analyzed and troubleshot customer DAS (distributed antenna system).</li>
+								<li>Troubleshot test equipment to take radio signal measurements and sweep tested coaxial, fiber, and Cat 5
+					cables and tested equipment: Anritsu ODTR and Spectrum Analyzer.</li>
+									<li>Installation of a Fiber DAS (Distributed Antenna System) system using fiber splicing techniques.</li>
+								</ul>
+							</div>
+										<div class="content">
+								<h3>March 2012 - March 2013</h3>
+								<p>Principle Solutions Group (Contractor)<br />
+								<em>Field Engineer</em></p>
+								<ul class="info">
+								<li>Deployed traffic enforcement systems for city of Philadelphia, connecting them to the network.</li>
+								<li>Deployed and configured Cisco 810 routers in red light cameras to allow remote access.</li>
+								<li>Installed and configured Cisco wireless routers using team viewer.</li>
+								</ul>
+							</div>
+										<div class="content">
+								<h3>March 2010 - March 2012</h3>
+								<p>Comcast<br />
+								<em>Field Technician</em></p>
+								<ul class="info">
+								<li>Installed Cisco small businesses switches.</li>
+								<li>Tasked with the repair of computer systems on site for existing customers also maintained documentation and
+					records of work done.</li>
+								<li>Performed upgrades and carried out scheduled maintenance on computer system, troubleshooting workstations
+					and networks.</li>
+									<li>Provided customer training and technical support for new clients.</li>
+								</ul>
+							</div>
+							</div>
+							<!-- End 3rd Row -->
+							<!-- Begin 4th Row -->
+							<div class="entry">
+							<h2>SKILLS</h2>
+							<div class="content">
+								<h3>NETWORK PROFICIENCY</h3>
+								<ul class="skills">
+								<li>Amazon Web Services</li>
+								<li>Microsoft Azure</li>
+								<li>Juniper SRX</li>
+								<li>Cisco devices</li>
+								<li>Fireworks</li>
+								<li>Dreamweaver</li>
+								<li>After Effects</li>
+								<li>Cinema 4D</li>
+								<li>Maya</li>
+								</ul>
+							</div>
+							<div class="content">
+								<h3>Languages</h3>
+								<ul class="skills">
+								<li>CSS/XHTML</li>
+								<li>Django</li>
+								<li>Python</li>
+								<li>Linux</li>
+								<li>HTML</li>
+								<li>C++</li>
+								</ul>
+							</div>
+							</div>
+							<!-- End 4th Row -->
+							<!-- Begin 5th Row 
+							<div class="entry">
+							<h2>WORKS</h2>
+								<ul class="works">
+									<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+									<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+								</ul>
+							</div>
+						Begin 5th Row -->
+						</div>
+						<div class="clear"></div>
+						<div class="paper-bottom"></div>
+						</div>
+						<!-- End Paper -->
+					</div>
+					<div class="wrapper-bottom"></div>
+					</div>
+					<div id="message"><a href="#top" id="top-link">Go to Top    </a><a href="{% url 'index' %}" id="top-link">Home</a></div>
+					<!-- End Wrapper -->
+				
+
+				
+{% endblock %}
+
+<script src="{% static 'js/jquery.min.js'%}"></script>
+	<script src="{% static 'js/jquery.scrolly.min.js'%}"></script>
+	<script src="{% static 'js/jquery.scrollex.min.js'%}"></script>
+	<script src="{% static 'js/browser.min.js"></script'%}"></script>
+	<script src="{% static 'js/breakpoints.min.js'%}"></script>
+	<script src="{% static 'js/util.js'%}"></script>
+	<script src="{% static 'js/main.js'%}"></script>
