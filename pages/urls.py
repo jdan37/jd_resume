@@ -7,3 +7,4 @@ urlpatterns = [
     path('about', views.about, name='about'),
     path('res', views.res, name='res')
 ]
+
